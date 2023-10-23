@@ -1,14 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header.astro';
+import Navbar from '../components/Navbar'
 import Hero from '../components/Hero.astro';
 ---
+<Navbar client:load />
 
 <Layout title="Fer Pastor Dev.">
 	<main>
-		
 		<Hero />
 	</main>
 	
 </Layout>
-
