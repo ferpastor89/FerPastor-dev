@@ -1,7 +1,7 @@
 ---
 
 ---
-<a href="#" class="group relative bg-black flex flex-wrap justify-around w-full max-w-screen-lg mx-auto mt-12">
+<div class="group relative bg-black flex flex-wrap justify-around w-full max-w-screen-lg mx-auto mt-12">
   <img
     alt="Developer"
     src="/fer-dev.jpeg"
@@ -9,30 +9,54 @@
   />
 
   <div class="relative p-12 sm:p-2 lg:p-2">
-    <p class="text-sm font-medium uppercase tracking-widest text-white">
-      Hi! I´m
+    <p class="text-xl font-medium tracking-widest text-white lg:text-3xl lg:pl-16 pt-12">
+      Hi! Im
     </p>
 
-    <p class="text-xl font-bold text-pink-500 sm:text-2xl ">Fer Pastor</p>
+    <p class=" text-xl font-medium text-yellow-500 sm:text-4xl lg:text-6xl lg:pl-16">Fer Pastor</p>
 
-    <div class="mt-32 sm:mt-48 lg:mt-64">
+    <div class="mt-32 sm:mt-48 lg:mt-20">
       <div
         class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
-        <p class="text-sm text-white">
-          A curious and eclectic <span class="text-2xl font-bold text-blue-500">frontend developer</span>
+        <p class="text-xl text-white lg:text-4xl lg:py-16 lg:px-16">
+          A curious and eclectic <span class=" text-2xl sm:text-4xl font-medium text-blue-600 lg:text-6xl">frontend developer</span>
           with experience in the development of websites and web apps.
         </p>
+
+        <div class="flex flex-wrap justify-around pt-4">
+          <a class="text-white" href="https://github.com/ferpastor89?tab=overview&from=2023-10-01&to=2023-10-29" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="36" height="36" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+         </svg>
+        </a>
+          <a class="text-white" href="https://www.linkedin.com/in/ferpastordev/" target="_blank" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="36" height="36" viewBox="0 0 24 24" stroke-width="2" stroke="blue" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+              <path d="M8 11l0 5"></path>
+              <path d="M8 8l0 .01"></path>
+              <path d="M12 16l0 -5"></path>
+              <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+           </svg>
+          </a>
+          <a href="https://ferdownloadcv.web.app/" class="border border-gray-500 text-yellow-500 hover:text-yellow-500 hover:border-yellow-700 py-2 px-4 rounded-full transition-colors duration-300 inline-block text-center" target="_blank">
+            Download resume
+          </a>
+          
+        </div>
+        
       </div>
     </div>
   </div>
-</a>
+</div>
 
 
 <style>
   @media (min-width: 768px) {
   .hero-img {
-    content: url('/public/libro abierto fondo turquesa.png');
+    content: url('/public/bg-desktop.jpg');
   }
 }
 </style>
