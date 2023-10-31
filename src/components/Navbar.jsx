@@ -24,9 +24,9 @@ const Navbar = () => {
         <div className="fixed top-20 left-1/2 transform -translate-x-1/2 w-80 z-50">
           <div className="p-6 text-black text-center bg-yellow-300">
             <a href="#home" className="text-xl block py-2 hover:text-gray-300 ">Home</a>
-            <a href="#projects" className="text-xl block py-2 hover:text-gray-300 ">Projects</a>
+            <a href="#Projects" className="text-xl block py-2 hover:text-gray-300 ">Projects</a>
             <a href="#skills" className="text-xl block py-2 hover:text-gray-300 ">Skills</a>
-            <a href="#about" className="text-xl block py-2 hover:text-gray-300 ">About me</a>
+            <a href="#about" className="text-xl block py-2 hover:text-gray-300 ">about</a>
           </div>
         </div>
       )}
