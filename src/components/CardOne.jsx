@@ -6,7 +6,7 @@ const CardOne = () => {
       <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900 dark:shadow-gray-700/25">
         <img
           alt="Office"
-          src="/public/Syunik-2.png"
+          src="/Syunik-2.png"
           className="h-56 w-full object-cover"
         />
 
