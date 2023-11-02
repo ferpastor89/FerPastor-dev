@@ -18,8 +18,8 @@ const CardTwo = () => {
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-400">
-            App web desarrollada en React, que ayuda a los padres a gestionar de manera respetuosa 
-            los enojos de sus hijos mediante el aprendizaje
+          Web app developed in React that assists parents in managing their children's anger respectfully through learning.
+          It allows parents to choose different actions that their children should take to achieve this.
           </p>
 
           <div class="icons flex justify-center">

@@ -13,13 +13,13 @@ const CardFour = () => {
         <div className="p-4 sm:p-6">
           <a href="#">
             <h3 className="text-lg font-medium text-gray-900 dark:text-white">
-              Descargar CV en PDF
+              Download CV in PDF
             </h3>
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-400">
-            Esta landing single page app fue desarrollada para descargar mis cvs, tanto en Español 
-            como en Inglés, utilicé Firebase storage para el guardado de dichos cvs
+          This single-page app was developed using Vanilla JavaScript and is used to download my CVs in both Spanish and English.
+          I utilized Firebase storage to store these CVs.
           </p>
 
           <div class="icons flex justify-center">

@@ -18,9 +18,8 @@ const CardThree = () => {
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-400">
-          Desarrollé una landing page para el emprendimiento Miranda Nails,
-          necesitaban una landing fresca, donde mostrar fotos y servicios y también poder contactarse con 
-          ellas a través de whatsapp o de sus redes sociales.
+          I developed a landing page for the Miranda Nails venture. They needed a simple and fresh webpage to showcase photos and services,
+          and also enable visitors to contact them via WhatsApp or their social media channels.
           </p>
 
           <div class="icons flex justify-center">

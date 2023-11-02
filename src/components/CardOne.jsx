@@ -18,8 +18,8 @@ const CardOne = () => {
           </a>
 
           <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500 dark:text-gray-400">
-            A pedido de la gente de Syunik investments, un equipo que asesora sobre la inversión
-            con criptomonedas, realicé una landing page para su empresa. Fue desarrollada en HTML5, Css3 y JavaScript.
+          At the request of the people at Syunik Investments, a team that provides advice on cryptocurrency investment,
+           I created a landing page for their company. It was developed using HTML5, CSS3, and JavaScript.
           </p>
 
           <div class="icons flex justify-center">
