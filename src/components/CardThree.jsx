@@ -2,7 +2,7 @@ import React from "react";
 
 const CardThree = () => {
   return (
-    <div className="w-80 mx-auto">
+    <div className="w-80 mx-auto bg-white rounded-full">
       <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900 dark:shadow-gray-700/25">
         <img
           alt="Home Miranda Nails"
@@ -11,7 +11,7 @@ const CardThree = () => {
         />
 
         <div className="p-4 sm:p-6">
-          <a href="#">
+          <a href="https://mirandanailsar.web.app/" target="_blank">
             <h3 className="text-lg font-medium text-gray-900 dark:text-white">
               Miranda Nails, belleza de uñas
             </h3>
