@@ -1,4 +1,6 @@
-
+---
+import '../../public/headingNowFonts/HeadingNowTrial-25Medium.ttf'
+---
 
 <div id="home" class="group relative bg-black flex flex-wrap justify-around w-full mx-auto">
   <img
@@ -8,20 +10,20 @@
   />
 
   <div class="relative p-12 sm:p-2 lg:p-2">
-    <p class=" text-4xl text-white font-bold tracking-wide lg:text-3xl lg:pl-16 pt-12">
+    <p class=" text-3xl text-white font-bold tracking-wide lg:text-3xl lg:pl-16 pt-12 customfont">
         Hi! I'm
     </p>
 
-    <p class="text-3xl font-bold sm:text-4xl lg:text-6xl lg:pl-16 pt-18">
-      <span class="bg-gradient-to-r text-transparent from-orange-400 via-blue-400 to-green-300 bg-clip-text">
+    <p class="text-5xl font-bold sm:text-4xl lg:text-6xl lg:pl-16 pt-18">
+      <span class=" customfont bg-gradient-to-r text-transparent from-orange-400 via-blue-400 to-green-300 bg-clip-text">
         Fer Pastor
       </span>
     </p>
 
     <div class="mt-28 sm:mt-48 lg:mt-20 fade-in max-w-screen-lg mx-auto">
       
-        <p class="text-xl text-white lg:text-4xl lg:py-16 lg:px-16 ">
-          A curious and eclectic <span class="text-2xl sm:text-4xl font-medium text-blue-600 lg:text-6xl">frontend developer</span>
+        <p class="text-xl text-white lg:text-4xl lg:py-16 lg:px-16 customfont pb-10">
+          A curious and eclectic <span class="text-3xl sm:text-4xl custom-font font-medium text-blue-400 lg:text-6xl">frontend developer</span>
           with experience in the development of websites and web apps.
         </p>
 
@@ -42,7 +44,7 @@
               <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
             </svg>
           </a>
-          <a href="https://ferdownloadcv.web.app/" class="border border-gray-500 text-yellow-500 hover:text-yellow-500 hover:border-yellow-700 py-2 px-4 rounded-full transition-colors duration-300 inline-block text-center" target="_blank">
+          <a href="https://ferdownloadcv.web.app/" class="border border-gray-500 text-orange-400 hover:text-orange-500 hover:border-yellow-700 py-2 px-4 rounded-full transition-colors duration-300 inline-block text-center customfont" target="_blank">
             Download resume
           </a>
         </div>
@@ -52,6 +54,19 @@
 </div>
 
 <style>
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../../public/montserratFonts/Montserrat-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+  .customfont {
+    font-family: 'montserrat', sans-serif;
+  }
+
   @keyframes fadeIn {
   0% {
     opacity: 0;
