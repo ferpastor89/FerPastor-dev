@@ -3,7 +3,6 @@ import React from "react";
 import CardOne from '../components/CardOne';
 import CardTwo from '../components/CardTwo';
 import CardThree from '../components/CardThree';
-import CardFour from '../components/CardFour';
 
 const Projects = () => {
     return (
@@ -19,10 +18,14 @@ const Projects = () => {
                 <div className="mb-8">
                     <CardThree />
                 </div>
-                <div className="mb-8">
-                    <CardFour />
-                </div>
             </div>
+
+            <div>
+                <a className="ver más" href="#ver mas">
+                    <h2 className="text-green-300 mt-3 mb-5">Ver más</h2>
+                </a>
+            </div>
+            
         </div>
     );
 };
