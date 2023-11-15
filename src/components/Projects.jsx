@@ -21,7 +21,7 @@ const Projects = () => {
             </div>
 
             <div>
-                <a className="ver más" href="#ver mas">
+                <a className="ver más" href="">
                     <h2 className="text-green-300 mt-3 mb-5">Ver más</h2>
                 </a>
             </div>
