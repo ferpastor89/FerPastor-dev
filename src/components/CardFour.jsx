@@ -2,8 +2,8 @@ import React from "react";
 
 const CardFour = () => {
   return (
-    <div className="w-80 mx-auto bg-white rounded-full">
-      <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900 dark:shadow-gray-700/25">
+    <div className=" card-four w-80 mx-auto bg-white rounded-full">
+      <article className=" card overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm dark:border-gray-800 dark:bg-gray-900 dark:shadow-gray-700/25">
         <img
           alt="descarga de cv Fernando Pastor"
           src="/descargaCv.png"

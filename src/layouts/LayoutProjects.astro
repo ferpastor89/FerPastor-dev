@@ -1,5 +1,9 @@
 ---
+import Navbar from '../components/Navbar';
+import Projects from '../components/Projects';
+import CardFour from '../components/CardFour';
 import { ViewTransitions } from 'astro:transitions';
+
 interface Props {
 	title: string;
 }
@@ -17,15 +21,25 @@ const { title } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<script src="https://cdn.jsdelivr.net/npm/alpinejs@2.x.x/dist/alpine.js" defer></script>
 		<title>{title}</title>
-		<ViewTransitions />
+        <ViewTransitions />
 	</head>
-	<body>
-		
+
+	<body class="pb-20">
+
+		<Navbar client:load />
+        <Projects />
+        <CardFour />
 		<main>
-			<slot />
+            <slot />
 		</main>
+        <div>
+        <a class="text-green-300 flex justify-center mt-10" href="/#home">
+            <h2>Menú principal</h2>
+        </a>
+        </div>
 	</body>
 </html>
+
 <style is:global>
 	:root {
 		--accent: 136, 58, 234;
@@ -39,19 +53,22 @@ const { title } = Astro.props;
 		);
 	}
 	html {
+        
 		font-family: system-ui, sans-serif;
 		background: #13151a;
 		background-size: 224px;
 	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
+	
+    .ver-mas{
+        display: none;
+    }
+    .title {
+        padding-top: 6rem;
+    }
+
+    #projects {
+        margin-top: 0;
+    }
+
+    
 </style>

@@ -23,8 +23,11 @@ const Navbar = () => {
   return (
     <div className={`fixed pt-4 pr-3 z-50 flex flex-wrap justify-between w-full max-w-screen-lg lg:hidden ${scrollY > 0 && !menuAbierto ? 'bg-white bg-opacity-30 backdrop-blur-lg' : ''}`}>
       <div className="logo pl-3">
-        <h1 className="logo-h1 text-2xl font-bold bg-gradient-to-r text-transparent from-blue-500 via-green-300 to-orange-500 bg-clip-text">FP</h1>
+        <a href="/#home">
+          <h1 className="logo-h1 text-2xl font-bold bg-gradient-to-r text-transparent from-blue-500 via-green-300 to-orange-500 bg-clip-text">FP</h1>
+        </a>
       </div>
+
       <div className="lg:hidden">
         <button className="menu-hamburguesa focus:outline-none text-white z-10" onClick={toggleMenu}>
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
