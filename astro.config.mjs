@@ -8,5 +8,9 @@ import vercel from "@astrojs/vercel/serverless";
 export default defineConfig({
   integrations: [tailwind(), react()],
   output: 'hybrid',
-  adapter: vercel()
+  adapter: vercel(),
+  // Forzar a Astro para escuchar en todas las interfaces de red
+  server: {
+    hostname: '0.0.0.0'
+  }
 });

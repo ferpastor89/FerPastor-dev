@@ -22,7 +22,7 @@ const Projects = () => {
 
             <div className="ver-mas">
                 <a href="/AllProjects">
-                    <h2 className="text-green-300 mt-3 mb-5">Ver más</h2>
+                    <h2 className="text-green-300 mt-3 mb-5">See more</h2>
                 </a>
             </div>
             

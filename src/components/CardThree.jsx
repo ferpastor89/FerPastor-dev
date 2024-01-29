@@ -13,7 +13,7 @@ const CardThree = () => {
         <div className="p-4 sm:p-6">
           <a href="https://mirandanailsar.web.app/" target="_blank">
             <h3 className="text-lg font-medium text-gray-900 dark:text-white">
-              Miranda Nails, belleza de uñas
+              Miranda Nails, beauty nails 
             </h3>
           </a>
 
